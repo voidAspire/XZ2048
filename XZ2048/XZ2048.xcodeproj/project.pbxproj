@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140337321CA0F537009ACBFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140337311CA0F537009ACBFB /* main.m */; };
+		140337351CA0F537009ACBFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 140337341CA0F537009ACBFB /* AppDelegate.m */; };
+		140337381CA0F537009ACBFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140337371CA0F537009ACBFB /* ViewController.m */; };
+		1403373B1CA0F537009ACBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140337391CA0F537009ACBFB /* Main.storyboard */; };
+		1403373D1CA0F537009ACBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1403373C1CA0F537009ACBFB /* Assets.xcassets */; };
+		1403374B1CA0F538009ACBFB /* XZ2048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1403374A1CA0F538009ACBFB /* XZ2048Tests.m */; };
+		140337561CA0F538009ACBFB /* XZ2048UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 140337551CA0F538009ACBFB /* XZ2048UITests.m */; };
+		140337651CA0F5DB009ACBFB /* XZTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 140337641CA0F5DB009ACBFB /* XZTheme.m */; };
+		1403376A1CA1001D009ACBFB /* XZScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 140337691CA1001D009ACBFB /* XZScoreView.m */; };
+		1403376D1CA10FBF009ACBFB /* XZGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1403376C1CA10FBF009ACBFB /* XZGameView.m */; };
+		140337741CA1291F009ACBFB /* XZData.m in Sources */ = {isa = PBXBuildFile; fileRef = 140337731CA1291F009ACBFB /* XZData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		140337471CA0F538009ACBFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140337251CA0F537009ACBFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1403372C1CA0F537009ACBFB;
+			remoteInfo = XZ2048;
+		};
+		140337521CA0F538009ACBFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140337251CA0F537009ACBFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1403372C1CA0F537009ACBFB;
+			remoteInfo = XZ2048;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1403372D1CA0F537009ACBFB /* XZ2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZ2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		140337311CA0F537009ACBFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		140337331CA0F537009ACBFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		140337341CA0F537009ACBFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		140337361CA0F537009ACBFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		140337371CA0F537009ACBFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1403373A1CA0F537009ACBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1403373C1CA0F537009ACBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		140337411CA0F537009ACBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140337461CA0F538009ACBFB /* XZ2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZ2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1403374A1CA0F538009ACBFB /* XZ2048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ2048Tests.m; sourceTree = "<group>"; };
+		1403374C1CA0F538009ACBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140337511CA0F538009ACBFB /* XZ2048UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZ2048UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		140337551CA0F538009ACBFB /* XZ2048UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZ2048UITests.m; sourceTree = "<group>"; };
+		140337571CA0F538009ACBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140337631CA0F5DB009ACBFB /* XZTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZTheme.h; sourceTree = "<group>"; };
+		140337641CA0F5DB009ACBFB /* XZTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZTheme.m; sourceTree = "<group>"; };
+		140337681CA1001D009ACBFB /* XZScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZScoreView.h; sourceTree = "<group>"; };
+		140337691CA1001D009ACBFB /* XZScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZScoreView.m; sourceTree = "<group>"; };
+		1403376B1CA10FBF009ACBFB /* XZGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZGameView.h; sourceTree = "<group>"; };
+		1403376C1CA10FBF009ACBFB /* XZGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZGameView.m; sourceTree = "<group>"; };
+		140337721CA1291F009ACBFB /* XZData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZData.h; sourceTree = "<group>"; };
+		140337731CA1291F009ACBFB /* XZData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1403372A1CA0F537009ACBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140337431CA0F538009ACBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1403374E1CA0F538009ACBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140337241CA0F537009ACBFB = {
+			isa = PBXGroup;
+			children = (
+				1403372F1CA0F537009ACBFB /* XZ2048 */,
+				140337491CA0F538009ACBFB /* XZ2048Tests */,
+				140337541CA0F538009ACBFB /* XZ2048UITests */,
+				1403372E1CA0F537009ACBFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1403372E1CA0F537009ACBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1403372D1CA0F537009ACBFB /* XZ2048.app */,
+				140337461CA0F538009ACBFB /* XZ2048Tests.xctest */,
+				140337511CA0F538009ACBFB /* XZ2048UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1403372F1CA0F537009ACBFB /* XZ2048 */ = {
+			isa = PBXGroup;
+			children = (
+				140337751CA13617009ACBFB /* Controller */,
+				140337711CA12908009ACBFB /* Modle */,
+				140337671CA0FFEC009ACBFB /* View */,
+				140337661CA0FFCA009ACBFB /* Appearance */,
+				140337331CA0F537009ACBFB /* AppDelegate.h */,
+				140337341CA0F537009ACBFB /* AppDelegate.m */,
+				140337391CA0F537009ACBFB /* Main.storyboard */,
+				1403373C1CA0F537009ACBFB /* Assets.xcassets */,
+				140337411CA0F537009ACBFB /* Info.plist */,
+				140337301CA0F537009ACBFB /* Supporting Files */,
+			);
+			path = XZ2048;
+			sourceTree = "<group>";
+		};
+		140337301CA0F537009ACBFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				140337311CA0F537009ACBFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		140337491CA0F538009ACBFB /* XZ2048Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1403374A1CA0F538009ACBFB /* XZ2048Tests.m */,
+				1403374C1CA0F538009ACBFB /* Info.plist */,
+			);
+			path = XZ2048Tests;
+			sourceTree = "<group>";
+		};
+		140337541CA0F538009ACBFB /* XZ2048UITests */ = {
+			isa = PBXGroup;
+			children = (
+				140337551CA0F538009ACBFB /* XZ2048UITests.m */,
+				140337571CA0F538009ACBFB /* Info.plist */,
+			);
+			path = XZ2048UITests;
+			sourceTree = "<group>";
+		};
+		140337661CA0FFCA009ACBFB /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				140337631CA0F5DB009ACBFB /* XZTheme.h */,
+				140337641CA0F5DB009ACBFB /* XZTheme.m */,
+			);
+			name = Appearance;
+			sourceTree = "<group>";
+		};
+		140337671CA0FFEC009ACBFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				140337681CA1001D009ACBFB /* XZScoreView.h */,
+				140337691CA1001D009ACBFB /* XZScoreView.m */,
+				1403376B1CA10FBF009ACBFB /* XZGameView.h */,
+				1403376C1CA10FBF009ACBFB /* XZGameView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		140337711CA12908009ACBFB /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				140337721CA1291F009ACBFB /* XZData.h */,
+				140337731CA1291F009ACBFB /* XZData.m */,
+			);
+			name = Modle;
+			sourceTree = "<group>";
+		};
+		140337751CA13617009ACBFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				140337361CA0F537009ACBFB /* ViewController.h */,
+				140337371CA0F537009ACBFB /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1403372C1CA0F537009ACBFB /* XZ2048 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1403375A1CA0F538009ACBFB /* Build configuration list for PBXNativeTarget "XZ2048" */;
+			buildPhases = (
+				140337291CA0F537009ACBFB /* Sources */,
+				1403372A1CA0F537009ACBFB /* Frameworks */,
+				1403372B1CA0F537009ACBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XZ2048;
+			productName = XZ2048;
+			productReference = 1403372D1CA0F537009ACBFB /* XZ2048.app */;
+			productType = "com.apple.product-type.application";
+		};
+		140337451CA0F538009ACBFB /* XZ2048Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1403375D1CA0F538009ACBFB /* Build configuration list for PBXNativeTarget "XZ2048Tests" */;
+			buildPhases = (
+				140337421CA0F538009ACBFB /* Sources */,
+				140337431CA0F538009ACBFB /* Frameworks */,
+				140337441CA0F538009ACBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140337481CA0F538009ACBFB /* PBXTargetDependency */,
+			);
+			name = XZ2048Tests;
+			productName = XZ2048Tests;
+			productReference = 140337461CA0F538009ACBFB /* XZ2048Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		140337501CA0F538009ACBFB /* XZ2048UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140337601CA0F538009ACBFB /* Build configuration list for PBXNativeTarget "XZ2048UITests" */;
+			buildPhases = (
+				1403374D1CA0F538009ACBFB /* Sources */,
+				1403374E1CA0F538009ACBFB /* Frameworks */,
+				1403374F1CA0F538009ACBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140337531CA0F538009ACBFB /* PBXTargetDependency */,
+			);
+			name = XZ2048UITests;
+			productName = XZ2048UITests;
+			productReference = 140337511CA0F538009ACBFB /* XZ2048UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		140337251CA0F537009ACBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = shine;
+				TargetAttributes = {
+					1403372C1CA0F537009ACBFB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					140337451CA0F538009ACBFB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1403372C1CA0F537009ACBFB;
+					};
+					140337501CA0F538009ACBFB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1403372C1CA0F537009ACBFB;
+					};
+				};
+			};
+			buildConfigurationList = 140337281CA0F537009ACBFB /* Build configuration list for PBXProject "XZ2048" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 140337241CA0F537009ACBFB;
+			productRefGroup = 1403372E1CA0F537009ACBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1403372C1CA0F537009ACBFB /* XZ2048 */,
+				140337451CA0F538009ACBFB /* XZ2048Tests */,
+				140337501CA0F538009ACBFB /* XZ2048UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1403372B1CA0F537009ACBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1403373D1CA0F537009ACBFB /* Assets.xcassets in Resources */,
+				1403373B1CA0F537009ACBFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140337441CA0F538009ACBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1403374F1CA0F538009ACBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		140337291CA0F537009ACBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1403376D1CA10FBF009ACBFB /* XZGameView.m in Sources */,
+				140337741CA1291F009ACBFB /* XZData.m in Sources */,
+				140337381CA0F537009ACBFB /* ViewController.m in Sources */,
+				140337651CA0F5DB009ACBFB /* XZTheme.m in Sources */,
+				140337351CA0F537009ACBFB /* AppDelegate.m in Sources */,
+				140337321CA0F537009ACBFB /* main.m in Sources */,
+				1403376A1CA1001D009ACBFB /* XZScoreView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140337421CA0F538009ACBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1403374B1CA0F538009ACBFB /* XZ2048Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1403374D1CA0F538009ACBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140337561CA0F538009ACBFB /* XZ2048UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		140337481CA0F538009ACBFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1403372C1CA0F537009ACBFB /* XZ2048 */;
+			targetProxy = 140337471CA0F538009ACBFB /* PBXContainerItemProxy */;
+		};
+		140337531CA0F538009ACBFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1403372C1CA0F537009ACBFB /* XZ2048 */;
+			targetProxy = 140337521CA0F538009ACBFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		140337391CA0F537009ACBFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1403373A1CA0F537009ACBFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		140337581CA0F538009ACBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		140337591CA0F538009ACBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1403375B1CA0F538009ACBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XZ2048/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.XZ2048;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1403375C1CA0F538009ACBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XZ2048/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.XZ2048;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1403375E1CA0F538009ACBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XZ2048Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.XZ2048Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XZ2048.app/XZ2048";
+			};
+			name = Debug;
+		};
+		1403375F1CA0F538009ACBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XZ2048Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.XZ2048Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XZ2048.app/XZ2048";
+			};
+			name = Release;
+		};
+		140337611CA0F538009ACBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XZ2048UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.XZ2048UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XZ2048;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		140337621CA0F538009ACBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XZ2048UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.XZ2048UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XZ2048;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		140337281CA0F537009ACBFB /* Build configuration list for PBXProject "XZ2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140337581CA0F538009ACBFB /* Debug */,
+				140337591CA0F538009ACBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1403375A1CA0F538009ACBFB /* Build configuration list for PBXNativeTarget "XZ2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1403375B1CA0F538009ACBFB /* Debug */,
+				1403375C1CA0F538009ACBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1403375D1CA0F538009ACBFB /* Build configuration list for PBXNativeTarget "XZ2048Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1403375E1CA0F538009ACBFB /* Debug */,
+				1403375F1CA0F538009ACBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140337601CA0F538009ACBFB /* Build configuration list for PBXNativeTarget "XZ2048UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140337611CA0F538009ACBFB /* Debug */,
+				140337621CA0F538009ACBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 140337251CA0F537009ACBFB /* Project object */;
+}
